@@ -29,7 +29,7 @@ public class volumeSlider : MonoBehaviour
     public void ChangeVolume()
     {
         AudioListener.volume = volumeslider.value;
-
+        Save();
     }
     private void Load()
     {
