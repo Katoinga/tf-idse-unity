@@ -53,8 +53,10 @@
     <UnityVersion>2020.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\popup.cs" />
     <Compile Include="Assets\Script\playerMovement.cs" />
     <Compile Include="Assets\TooCubeForest\demoScenes\Movement.cs" />
+    <Compile Include="Assets\Script\volumeSlider.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
