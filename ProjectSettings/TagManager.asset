@@ -6,6 +6,29 @@ TagManager:
   tags:
   - Cajamarca
   - Loreto
+  - Amazonas
+  - Ancash
+  - Apurimac
+  - Arequipa
+  - Ayacucho
+  - Callao
+  - Cusco
+  - Huancavelica
+  - Huanuco
+  - Ica
+  - Junin
+  - LaLibertad
+  - Lambayeque
+  - Lima
+  - MadredeDios
+  - Moquegua
+  - Pasco
+  - Piura
+  - Puno
+  - SanMartin
+  - Tacna
+  - Tumbes
+  - Ucayali
   layers:
   - Default
   - TransparentFX
