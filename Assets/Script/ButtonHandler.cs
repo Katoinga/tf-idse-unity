@@ -5,6 +5,7 @@ using UnityEngine;
 public class ButtonHandler : MonoBehaviour
 {
     public GameObject cajamarca;
+    public GameObject maincanvas;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,10 +20,12 @@ public class ButtonHandler : MonoBehaviour
     public void ShowDepartamento()
     {
         cajamarca.SetActive(true);
+        maincanvas.SetActive(false);
     }
     public void OcultarDepartamento()
     {
         cajamarca.SetActive(false);
+        maincanvas.SetActive(true);
     }
     
 
