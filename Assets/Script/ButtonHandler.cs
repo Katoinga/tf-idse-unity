@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class ButtonHandler : MonoBehaviour
 {
-    public GameObject cajamarca;
+    public GameObject depar;
     public GameObject maincanvas;
+    public GameObject imbbg1,imbg2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,12 +21,16 @@ public class ButtonHandler : MonoBehaviour
     }
     public void ShowDepartamento()
     {
-        cajamarca.SetActive(true);
+        depar.SetActive(true);
         maincanvas.SetActive(false);
+        imbbg1.SetActive(true);
     }
     public void OcultarDepartamento()
     {
-        cajamarca.SetActive(false);
+        depar.SetActive(false);
+        imbbg1.SetActive(false);
+        imbg2.SetActive(false);
+
         maincanvas.SetActive(true);
     }
     

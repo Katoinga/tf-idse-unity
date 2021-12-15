@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UIAppear : MonoBehaviour
 {
-    [SerializeField] private GameObject buttn;
+    [SerializeField] private GameObject buttnCajamarca,bttnLoreto;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,14 +21,22 @@ public class UIAppear : MonoBehaviour
     {
         if (collision.CompareTag("Cajamarca"))
         {
-            buttn.SetActive(true);
+            buttnCajamarca.SetActive(true);
+        }
+        if (collision.CompareTag("Loreto"))
+        {
+            bttnLoreto.SetActive(true);
         }
     }
     void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Cajamarca"))
         {
-            buttn.SetActive(false);
+            buttnCajamarca.SetActive(false);
+        }
+        if (collision.CompareTag("Loreto"))
+        {
+            bttnLoreto.SetActive(false);
         }
     }
 }

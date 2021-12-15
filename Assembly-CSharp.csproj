@@ -53,15 +53,16 @@
     <UnityVersion>2020.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\Settingstoggle.cs" />
     <Compile Include="Assets\Script\volumeSlider.cs" />
     <Compile Include="Assets\Script\JoystickScript.cs" />
+    <Compile Include="Assets\Script\UIAppear.cs" />
     <Compile Include="Assets\Script\popup.cs" />
     <Compile Include="Assets\Script\playerMovement.cs" />
     <Compile Include="Assets\TooCubeForest\demoScenes\Movement.cs" />
-    <Compile Include="Assets\Script\JoystickMovePlayer.cs" />
-    <Compile Include="Assets\Script\UIAppear.cs" />
     <Compile Include="Assets\Script\ButtonHandler.cs" />
-    <Compile Include="Assets\Script\Settingstoggle.cs" />
+    <Compile Include="Assets\Script\JoystickMovePlayer.cs" />
+    <Compile Include="Assets\Script\CamaraFollow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
